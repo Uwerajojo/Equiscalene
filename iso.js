@@ -5,4 +5,20 @@ function Run() {
     alert(side2);
     var side3=document.getElementById("integer").value;
     alert(side3);
+
+
+if ((side1===side2)&&(side2===side3)&&(side1===side3))
+{
+    alert("Equilateral");
+}
+    else if((side1===side2)&&(side2>side3)&&(side3===side1))
+  {  alert("Isosceles");
+}
+    else if((side1>side2)&&(side2<side3)&&(side3>side1))
+    {
+        alert("Scalene");
+    }    
+else{
+    alert("not a triangle");
+}
 }
