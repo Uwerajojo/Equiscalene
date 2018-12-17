@@ -11,14 +11,26 @@ if ((side1===side2)&&(side2===side3)&&(side1===side3))
 {
     alert("Equilateral");
 }
-    else if((side1===side2)&&(side2>side3)&&(side3===side1))
+    else if((side1===side2)||(side2===side3)||(side3===side1))
   {  alert("Isosceles");
 }
-    else if((side1>side2)&&(side2<side3)&&(side3>side1))
+    else if((side1!==side2)&&(side2!==side3)&&(side3!==side1))
+    {
+        alert("Scalene");
+    }   
+  if sum(side1+side2>side3)&&(side2+side3>side)   
+if ((side1===side2)&&(side2===side3)&&(side1===side3))
+{
+    alert("Equilateral");
+}
+    else if((side1===side2)||(side2===side3)||(side3===side1))
+  {  alert("Isosceles");
+}
+    else if((side1!==side2)&&(side2!==side3)&&(side3!==side1))
     {
         alert("Scalene");
     }    
-else{
+{
     alert("not a triangle");
 }
 
